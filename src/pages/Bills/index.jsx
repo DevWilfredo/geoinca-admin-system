@@ -1,8 +1,9 @@
 import React from 'react'
+import {BillsComponent} from '../../components'
 
 const Bills = () => {
   return (
-    <div>Bills</div>
+    <div><BillsComponent/></div>
   )
 }
 

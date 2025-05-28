@@ -8,3 +8,6 @@ export { default as Navbar } from './Navbar';
 export { default as RecentOrders } from './RecentOrders';
 export { default as RevenueStatistics } from './RevenueStatistics';
 export { default as Sidebar } from './Sidebar';
+export {default as RequestsComponent} from './Requests';
+export {default as BillsComponent} from './Bills';
+export {default as IncidentsComponent} from './Incidents';
