@@ -24,7 +24,7 @@ const data = [
 
 const RevenueStatistics = () => {
     return (
-        <div className="bg-base-100 shadow-sm rounded-xl p-4">
+        <div className="bg-base-100 shadow-xl shadow-base-300 rounded-xl p-4">
             <h2 className="text-lg font-semibold mb-2">Revenue Statistics</h2>
             <p className="text-sm text-gray-500 mb-2">$184.78K · <span className="text-green-500">+3.24%</span></p>
             <ResponsiveContainer width="100%" height={300}>

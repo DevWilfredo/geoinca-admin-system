@@ -15,7 +15,7 @@ const statusColor = {
 
 const RecentOrders = () => {
   return (
-    <div className="bg-base-100 shadow-sm rounded-xl p-4 overflow-x-auto">
+    <div className="bg-base-100 shadow-xl shadow-base-300 rounded-xl p-4 overflow-x-auto">
       <h2 className="text-lg font-semibold mb-2">Recent Orders</h2>
       <table className="table table-zebra">
         <thead>
