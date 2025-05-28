@@ -39,7 +39,7 @@ const StatCard = ({ title, value, icon, diff, diffType, subtitle }) => {
   const isPositive = diffType === 'up';
 
   return (
-    <div className="bg-base-100 rounded-xl shadow-sm p-4 flex flex-col gap-2 w-full">
+    <div className="bg-base-100 rounded-xl shadow-xl shadow-base-300 p-4 flex flex-col gap-2 w-full">
       <div className="flex justify-between items-center">
         <h2 className="text-sm text-muted-foreground font-medium">{title}</h2>
         <div className="bg-muted p-2 rounded-md text-muted-foreground">

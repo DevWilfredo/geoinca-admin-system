@@ -22,7 +22,7 @@ const data = [
 
 const GlobalSales = () => {
   return (
-    <div className="bg-base-100 shadow-sm rounded-xl p-4">
+    <div className="bg-base-100 shadow-xl shadow-base-300rounded-xl p-4">
       <div className="flex items-center justify-between mb-2">
         <div className="flex items-center gap-2">
           <Globe size={18} />
