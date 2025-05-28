@@ -4,12 +4,12 @@ const Dashboard = () => {
     return (
         <>
             <BusinessOverview />
-            <div className="grid grid-cols-2 gap-4 mb-4 mt-7">
+            <div className="grid  sm:grid-cols-1 md:grid-cols-2 gap-4 mb-4 mt-7">
                 <RevenueStatistics />
                 <CustomerAcquisition />
             </div>
 
-            <div className='grid grid-cols-2 gap-4'>
+            <div className='grid sm:grid-cols-1 md:grid-cols-2 gap-4'>
                 <RecentOrders />
                 <GlobalSales />
             </div>
