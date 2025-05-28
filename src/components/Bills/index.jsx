@@ -89,7 +89,7 @@ const hardcodedLogs = [
 ];
 const BillsComponent = () => {
   return (
-    <div className="p-4 max-w-3xl mx-auto">
+    <div className="p-4 mx-auto">
       <h5 className="text-xl font-semibold text-blue-gray-900">
         Matrícula 123-XYZ
       </h5>
